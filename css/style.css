@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Oxanium', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.main {
+   display: flex;
+   gap: 20px;
+   border-radius: 15px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   height: 500px;
+}
+
+.login-section {
+    background-color: #f9f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 500px;
+    width: 48%;
+    border-radius: 15px 0 0 15px;
+}
+
+.login-section img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    transition: all 1s ease;
+}
+
+.login-section img:hover {
+    transform: scale(1.4) rotate(360deg);
+}
+
+.login-section p{
+    margin-right: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: clamp(12px, 2vw, 17px);
+    
+}
+
+.login-section button {
+    padding: 7px;
+    width: 120px;
+    background-color: #21b9b9;
+    color: rgb(242, 236, 236);
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-section button:hover {
+    background-color:  #1da6a6;
+    color: #fff;
+}
+.login-section button:active {
+    background-color:  #117e7e;
+}
+
+.register-section {
+    padding: 30px 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 52%;
+}
+
+.register-section h1 {
+    color: rgb(53, 53, 53);
+}
+
+.name-lastname {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.first-name, .last-name {
+    width: 50%;
+    color: #878585;
+    font-weight: 600;
+}
+
+.register-section button {
+    padding: 7px;
+    width: 120px;
+    background-color: #21b9b9;
+    color: rgb(242, 236, 236);
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.register-section button:hover {
+    background-color:  #1da6a6;
+    color: #fff;
+}
+.register-section button:active {
+    background-color:  #117e7e;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    border: 0;
+    border-radius: 3px;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.password {
+    color: #878585;
+    font-weight: 600;
+}
+.email {
+    color: #878585;
+    font-weight: 600;
+}
+.checkbox {
+    color: #878585;
+    font-weight: 600;
+}
+
+.checkbox a {
+    color: #8a3ec5;
+}
+
+
+
+
+
+
+
+
+
+
+
